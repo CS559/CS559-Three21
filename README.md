@@ -22,7 +22,7 @@ What's here (all copied from the THREE distribution except for ```build/three.mo
     - loaders
 1. the fonts (just the json for helvetiker) - this was added later in the semester
 
-## How to get TypeScript type checking to work in VSCode (*just for THREE.js stuff, not all the TypeScript language*)
+## How to get THREE.js TypeScript type checking to work in VSCode (*just for THREE.js stuff, not the entire TypeScript language*)
 Older versions of THREE.js had the `build/three.module.d.ts` file by default. This file allowed for helpful TypeScript type checking and hover-over capabilities in VSCode just for THREE.js things. For example, hovering over `T.BoxGeometry` will give info about the `BoxGeometry` object. And, with this helpful type checking, setting a THREE.js object to the wrong type would give an error. There is a way to include *all* of TypeScript checking to VSCode, but that's unnecessary and would make things complicated. That's what the `build/three.module.d.ts` enables in VSCode. Newer versions of THREE, however, removed this file for unknown reasons, but it's easy enough to add it back, through a hacky fix (but it works!). The steps to do this are below.
 1. Copy (do NOT remove) the `src/Three.d.ts` file into the `build` folder.
 1. Rename that copied file to `three.module.d.ts`.
