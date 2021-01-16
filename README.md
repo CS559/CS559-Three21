@@ -13,7 +13,7 @@ The choices of files are based on last year (which might not be an informed choi
 What's here (all copied from the THREE distribution except for ```build/three.module.d.ts```):
 1. The Three README.md and LICENSE files (renamed)
 1. `build/three.module.js`
-1. `build/three.module.d.ts`. This needs to be added manually. See the section below about TypeScript in VSCode for more info.
+1. `build/three.module.d.ts`. This needs to be added manually. See the section below about TypeScript type checking in VSCode for more info.
 1. the src folder (mainly to get the typing information)
 1. some of the examples (not all of them) - all from the jsm folder
     - controls (in the past, it was a subset - this year I included more)
