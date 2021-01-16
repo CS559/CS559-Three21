@@ -29,4 +29,5 @@ Older versions of THREE.js had the `build/three.module.d.ts` file by default. Th
 1. Find and replace all instances of `./` with `../src/` in the file you just copied and renamed (`build/three.module.d.ts`).
 1. Voila! Now THREE.js type checking should work in VSCode.
 
-This should be redone each time the THREE version is updated. You could just go about using an old version of `build/three.module.d.ts` (I tested this and type checking/type info worked for the example file I was looking at), but it's best to follow the steps above, in-case any new paths are added for new types in the `src/Three.d.ts` file.
+### These steps should be followed each time the THREE version is updated. 
+You could just go about using an old version of `build/three.module.d.ts` (I tested this and type checking/type info worked for the example file I was looking at), but it's best to follow the steps above, in-case any new paths are added for new types in the `src/Three.d.ts` file.
