@@ -1,5 +1,7 @@
 ﻿# CS559-Three -  a version of the THREE.js library for CS559 Workbooks
 
+**This is the Spring22 version!**
+
 These files are taken from the THREE distribution. 
 
 They are the pieces that are required for the CS559 workbooks. This is the minimum.
