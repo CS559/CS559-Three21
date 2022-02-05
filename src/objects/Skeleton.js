@@ -2,8 +2,8 @@ import {
 	RGBAFormat,
 	FloatType
 } from '../constants.js';
-import { Bone } from './Bone.js';
-import { Matrix4 } from '../math/Matrix4.js';
+import { Bone } from './Bone.js.js';
+import { Matrix4 } from '../math/Matrix4.js.js';
 import { DataTexture } from '../textures/DataTexture.js';
 import * as MathUtils from '../math/MathUtils.js';
 
@@ -178,6 +178,7 @@ class Skeleton {
 		boneMatrices.set( this.boneMatrices ); // copy current values
 
 		const boneTexture = new DataTexture( boneMatrices, size, size, RGBAFormat, FloatType );
+		boneTexture.needsUpdate = true;
 
 		this.boneMatrices = boneMatrices;
 		this.boneTexture = boneTexture;
