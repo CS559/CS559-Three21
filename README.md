@@ -21,3 +21,7 @@ What's here (all copied from the THREE distribution):
     - loaders
     - webxr
 1. the fonts (just the json for helvetiker) - this was added later in the semester
+
+## Type Information
+
+The `build/types` folder is copied from this [repository](https://github.com/three-types/three-ts-types). For future updates, replace the contents of `build/types` with the contents in [this](https://github.com/three-types/three-ts-types/tree/master/types/three) folder.
